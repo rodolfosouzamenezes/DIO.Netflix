@@ -1,0 +1,129 @@
+
+:root {
+    --vermelho: #bb1d24;
+    --preto: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body {
+    background: var(--preto);
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-right: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #e5e5e5;
+    margin-right: 15px;
+}
+
+header nav a:hover {
+    color: #b3b3b3;
+}
+
+/*filme principal*/
+.filme-principal {
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capaOzark.webp');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .container {
+    width: 36%;
+}
+
+.filme-principal .titulo {
+    width: 500px;
+}
+
+
+.filme-principal .assista {
+    margin: 1vw 0;
+    font-weight: bold;
+    font-size: 1.6vw;
+    color: #fff;
+}
+
+.filme-principal .descricao {
+    margin-top: 18px;
+    margin-bottom: 16px;
+    font-size: 1.4vw;
+    margin-top: 0.1vw;
+}
+
+.botaoA {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color:black;
+
+}
+
+.botaoM {
+    background-color: rgba(109,109,110,0.7);
+    border: none;
+    color: white;
+}
+
+.botaoM, .botaoA {
+    padding: 13px 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botaoA:hover {
+    background-color: rgb(255, 255, 255, 0.50);
+}
+
+.botaoM:hover {
+    background-color: rgba(109, 109, 110, 0.329);
+}
+
+.botaoA i, .botaoM i {
+    margin-right: 7px;
+}
+
+.container {
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/*.carrosel-filmes {
+    margin-left: 55px;
+    margin-right: 55px;
+
+    
