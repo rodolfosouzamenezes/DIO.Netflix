@@ -88,7 +88,7 @@ navbar .right .avatar {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
- 
+    margin-bottom: 80px;
 }
 
 .filme-principal {
@@ -163,7 +163,7 @@ navbar .right .avatar {
     margin-bottom: 0px;
 
     cursor: pointer;
-    transition: .3s ease all;
+    transition: .8s ease all;
 }
 
 .botaoA:hover {
@@ -196,4 +196,8 @@ navbar .right .avatar {
 .tituloSlider {
     margin-left: 50px;
     margin-bottom: 10px;
+}
+
+.bombando {
+    margin-bottom: 80px;
 }
